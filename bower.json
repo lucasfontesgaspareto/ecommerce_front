@@ -1,0 +1,27 @@
+{
+  "name": "ecommerce_front",
+  "description": "ecommerce based node.js",
+  "main": "app.js",
+  "authors": [
+    "Lucas Fontes Gaspareto <devgaspa@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "ecommerce",
+    "node.js",
+    "mongodb",
+    "ejs"
+  ],
+  "homepage": "https://github.com/lucasfontesgaspareto/ecommerce_front",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

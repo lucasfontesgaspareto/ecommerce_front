@@ -35,8 +35,6 @@ let initServer = () => {
 }
 
 gulp.task('build-html', () => {
-  console.log(path.htmlSrc.concat('**/*.ejs'))
-  console.log(path.buildDir.concat('views/'))
   return gulp
           .src(path.htmlSrc.concat('**/*.ejs'))
           .pipe(gulp.dest(path.buildDir.concat('views/')))

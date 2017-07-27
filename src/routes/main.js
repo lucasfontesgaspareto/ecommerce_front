@@ -3,7 +3,8 @@ const router = express.Router()
 
 router.get('/', (req, res) => {
   return res.render('main/index', {
-    title: 'ecommerce'
+    title: 'ecommerce',
+    layout: 'layouts/base'
   })
 })
 
