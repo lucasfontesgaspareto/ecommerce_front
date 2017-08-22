@@ -23,6 +23,7 @@
     "morgan": "^1.8.2"
   },
   "devDependencies": {
+    "bower": "^1.8.0",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-changed": "^3.1.0",
